@@ -26,4 +26,4 @@ var isValid = function (s) {
 
   return stack.length === 0;
 };
-//데칼코마니 찾을 땐 스택
+// 한짝은 붙어있는 데칼코마니 찾을 땐 스택
