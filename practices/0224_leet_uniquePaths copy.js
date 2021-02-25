@@ -23,7 +23,7 @@ const uniquePaths = (m, n) => {
   for (let i = 0; i < dp.length; i++) {
     dp[i] = new Array(n + 1).fill(1);
   }
-
+  console.log(dp);
   dp[m][n] = 1;
   for (let row = m - 1; row > 0; row--) {
     for (let col = n - 1; col > 0; col--) {
